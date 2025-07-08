@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - IMS 458 Assignment</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .personal-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .personal-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .personal-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        
+        .personal-photo {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .personal-photo img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .personal-details {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        .detail-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .detail-item:last-child {
+            border-bottom: none;
+        }
+        
+        .detail-label {
+            font-weight: bold;
+            color: #2c3e50;
+            display: inline-block;
+            width: 150px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="sticky-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" alt="Hope Haven Logo"></a>
+            </div>
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox">
+            <label for="mobile-menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Personal Page Content -->
+    <main class="personal-page">
+        <div class="personal-header"> <br><br>
+            <h1>About Me</h1>
+            <p>IMS 458 Web Design and Development Assignment</p>
+        </div>
+        
+        <div class="personal-info">
+            <div class="personal-photo">
+                <img src="images/student-photo.jpg" alt="Your Photo">
+            </div>
+            
+            <div class="personal-details">
+                <div class="detail-item">
+                    <span class="detail-label">Title:</span>
+                    <span>Orphanage Corporate Website Assignment</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Name:</span>
+                    <span>Muhammad Haikal Farihin bin Muhd Zahidi Ridzuan</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Student ID:</span>
+                    <span>2024231122</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Group:</span>
+                    <span>CDIM2622ST1</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Course Code:</span>
+                    <span>IMS 458</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Course Name:</span>
+                    <span>Web Design And Development</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Program Code:</span>
+                    <span>CDIM 262</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Faculty:</span>
+                    <span>Faculty of Information Science</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Submission Date:</span>
+                    <span>08 July 2025</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Published URL:</span>
+                    <span>[Your published website URL]</span>
+                </div>
+            </div>
+        </div>
+        
+        <a href="index.html" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Website
+        </a>
+    </main>
+
+    <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 43 Jalan Rimba Riang 9/8, Kota Damansara, Petaling Jaya</p>
+        <p><i class="fas fa-phone"></i> +03-6150 2421</p>
+        <p><i class="fas fa-envelope"></i> info@ywardatuljannah.com</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/ywardatuljannah" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/watch?v=ppCAolNEAOw" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://y-wardatuljannah.blogspot.com/" target="_blank"><i class="fas fa-blog"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="disclaimer">
+        <p><strong>Disclaimer:</strong> This is a student project website for Yayasan Wardatul Jannah, created for learning HTML & CSS only.</p>
+        <p>Copyright &copy; 2025 | Recommended browser: Chrome  138.0.7204.92/93/96/97, Firefox 140.0.2 | Resolution: 1920x1080 and above</p>
+        <p>Last updated: July 2025</p>
+      </div>
+      <div class="footer-links">
+        <a href="aboutme.html">About Me</a>
+        <a href="https://www.facebook.com/ywardatuljannah" target="_blank">Facebook</a>
+        <a href="https://www.youtube.com/@yayasanwardatuljannah6173" target="_blank">YouTube</a>
+        <a href="https://y-wardatuljannah.blogspot.com/" target="_blank">Blogspot</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - Yayasan Wardatul Jannah</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="sticky-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.jpg" alt="Yayasan Wardatul Jannah Logo"></a>
+      </div>
+      <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox">
+      <label for="mobile-menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="donate.html" class="active">Donate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Donation Page Header -->
+  <header class="page-header">
+    <div class="header-overlay"></div>
+    <div class="header-content">
+      <h1>Support Our Children</h1>
+      <p>Your donation makes a lasting difference in their lives</p>
+    </div>
+  </header>
+
+  <main>
+    
+
+
+
+<!-- Impact Section -->
+    <section class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Your Impact</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="impact-grid">
+        <div class="impact-card">
+          <div class="impact-icon">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h3>RM50</h3>
+          <p>Feeds a child for one week</p>
+        </div>
+        
+        <div class="impact-card">
+          <div class="impact-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3>RM100</h3>
+          <p>Provides school supplies for a month</p>
+        </div>
+        
+        <div class="impact-card">
+          <div class="impact-icon">
+            <i class="fas fa-home"></i>
+          </div>
+          <h3>RM300</h3>
+          <p>Covers shelter costs for a child</p>
+        </div>
+        
+        <div class="impact-card">
+          <div class="impact-icon">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>RM500</h3>
+          <p>Sponsors a child's education for a term</p>
+        </div>
+      </div>
+    </section>
+
+  
+
+
+
+
+  <!-- Donation Options -->
+    <section class="section-container alt-bg" id="donation-options">
+      <div class="section-header">
+        <h2 class="section-title">Ways to Give</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="donation-tabs">
+        <input type="radio" id="one-time" name="donation-type" checked>
+        <label for="one-time">One-Time Donation</label>
+        
+        <input type="radio" id="monthly" name="donation-type">
+        <label for="monthly">Monthly Donation</label>
+        
+        <input type="radio" id="sponsor" name="donation-type">
+        <label for="sponsor">Child Sponsorship</label>
+        
+        <div class="tab-content" id="one-time-content">
+          <div class="donation-form">
+            <h3>Make a One-Time Gift</h3>
+            <form>
+              <div class="form-group">
+                <label for="amount">Donation Amount (RM)</label>
+                <div class="amount-options">
+                  <button type="button" class="amount-option">50</button>
+                  <button type="button" class="amount-option">100</button>
+                  <button type="button" class="amount-option">200</button>
+                  <button type="button" class="amount-option">500</button>
+                  <input type="number" id="amount" name="amount" placeholder="Other amount">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="purpose">Designation (Optional)</label>
+                <select id="purpose" name="purpose">
+                  <option value="">Where needed most</option>
+                  <option value="food">Food Program</option>
+                  <option value="education">Education Fund</option>
+                  <option value="shelter">Shelter Maintenance</option>
+                  <option value="activities">Children's Activities</option>
+                </select>
+              </div>
+              
+              <button type="submit" class="donate-button">Donate Now</button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="monthly-content">
+          <div class="donation-form">
+            <h3>Become a Monthly Donor</h3>
+            <p>Your recurring gift provides sustainable support for our programs.</p>
+            <form>
+              <div class="form-group">
+                <label for="monthly-amount">Monthly Amount (RM)</label>
+                <div class="amount-options">
+                  <button type="button" class="amount-option">50</button>
+                  <button type="button" class="amount-option">100</button>
+                  <button type="button" class="amount-option">200</button>
+                  <input type="number" id="monthly-amount" name="monthly-amount" placeholder="Other amount">
+                </div>
+              </div>
+              
+              <button type="submit" class="donate-button">Start Monthly Giving</button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="sponsor-content">
+          <div class="sponsor-info">
+            <h3>Sponsor a Child</h3>
+            <p>For RM300/month, you can sponsor a child's complete care including food, shelter, education, and healthcare. You'll receive updates about your sponsored child and can even exchange letters.</p>
+            
+            <div class="sponsor-button-container">
+              <a href="contact.html" class="sponsor-button">Learn More About Sponsorship</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+
+
+
+  <!-- Bank Transfer Info -->
+    <section class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Bank Transfer</h2>
+        <div class="section-divider"></div>
+        <p class="section-description">You can also donate via direct bank transfer</p>
+      </div>
+      
+      <div class="bank-info">
+        <div class="bank-card">
+          <div class="bank-logo">
+            <img src="images/maybank-logo.jpg" alt="Maybank">
+          </div>
+          <div class="bank-details">
+            <h3>Maybank Islamic</h3>
+            <p><strong>Account Name:</strong> Yayasan Wardatul Jannah</p>
+            <p><strong>Account Number:</strong> 1928374650</p>
+            <p><strong>Reference:</strong> DONATION</p>
+          </div>
+        </div>
+        
+        <div class="bank-card">
+          <div class="bank-logo">
+            <img src="images/cimb-logo.png" alt="CIMB">
+          </div>
+          <div class="bank-details">
+            <h3>CIMB Bank</h3>
+            <p><strong>Account Name:</strong> Yayasan Wardatul Jannah</p>
+            <p><strong>Account Number:</strong> 1220993487643</p>
+            <p><strong>Reference:</strong> DONATION</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="transfer-note">
+        <p>After making your transfer, please email your payment details to <strong>donations@ywardatuljannah.com</strong> for our records and receipt issuance.</p>
+      </div>
+    </section>
+
+  
+
+
+
+
+  <!-- Donor Recognition -->
+    <section class="section-container alt-bg">
+      <div class="section-header">
+        <h2 class="section-title">Donor Recognition</h2>
+        <div class="section-divider"></div>
+        <p class="section-description">We appreciate every contribution, big or small</p>
+      </div>
+      
+      <div class="donor-levels">
+        <div class="level-card">
+          <h3>Friends of YWJ</h3>
+          <p class="level-amount">Up to RM499/year</p>
+          <ul class="level-benefits">
+            <li>Annual e-newsletter</li>
+            <li>Digital certificate</li>
+          </ul>
+        </div>
+        
+        <div class="level-card">
+          <h3>YWJ Builders</h3>
+          <p class="level-amount">RM500 - RM2,999/year</p>
+          <ul class="level-benefits">
+            <li>Quarterly updates</li>
+            <li>Invitation to annual tea</li>
+            <li>Recognition on website</li>
+          </ul>
+        </div>
+        
+        <div class="level-card">
+          <h3>YWJ Champions</h3>
+          <p class="level-amount">RM3,000+/year</p>
+          <ul class="level-benefits">
+            <li>Personalized updates</li>
+            <li>Invitation to special events</li>
+            <li>Plaque at our center</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 43 Jalan Rimba Riang 9/8, Kota Damansara, Petaling Jaya</p>
+        <p><i class="fas fa-phone"></i> +03-6150 2421</p>
+        <p><i class="fas fa-envelope"></i> info@ywardatuljannah.com</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/ywardatuljannah" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/watch?v=ppCAolNEAOw" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://y-wardatuljannah.blogspot.com/" target="_blank"><i class="fas fa-blog"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="disclaimer">
+        <p><strong>Disclaimer:</strong> This is a student project website for Yayasan Wardatul Jannah, created for learning HTML & CSS only.</p>
+        <p>Copyright &copy; 2025 | Recommended browser: Chrome  138.0.7204.92/93/96/97, Firefox 140.0.2 | Resolution: 1920x1080 and above</p>
+        <p>Last updated: July 2025</p>
+      </div>
+      <div class="footer-links">
+        <a href="aboutme.html">About Me</a>
+        <a href="https://www.facebook.com/ywardatuljannah" target="_blank">Facebook</a>
+        <a href="https://www.youtube.com/@yayasanwardatuljannah6173" target="_blank">YouTube</a>
+        <a href="https://y-wardatuljannah.blogspot.com/" target="_blank">Blogspot</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

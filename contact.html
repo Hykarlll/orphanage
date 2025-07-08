@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Yayasan Wardatul Jannah</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="sticky-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.jpg" alt="Yayasan Wardatul Jannah Logo"></a>
+      </div>
+      <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox">
+      <label for="mobile-menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Page Header -->
+  <header class="page-header">
+    <div class="header-overlay"></div>
+    <div class="header-content">
+      <h1>Get In Touch</h1>
+      <p>We'd love to hear from you</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contact Info -->
+    <section class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Contact Information</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="contact-info-grid">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Our Location</h3>
+          <address>
+            43 Jalan Rimba Riang 9/8<br>
+            Kota Damansara<br>
+            Petaling Jaya, Malaysia
+          </address>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <h3>Phone & Email</h3>
+          <p><strong>General Inquiries:</strong><br>
+          +603-6150 2421</p>
+          <p><strong>Email:</strong><br>
+          info@ywardatuljannah.com</p>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Visiting Hours</h3>
+          <p><strong>Monday - Friday:</strong><br>
+          9:00 AM - 5:00 PM</p>
+          <p><strong>Weekends:</strong><br>
+          By appointment only</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section-container alt-bg">
+      <div class="section-header">
+        <h2 class="section-title">Find Us</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="map-container">
+        <!-- Replace with your real Google Map embed if you have one -->
+        <img src="images/map.png" alt="Yayasan Wardatul Jannah Location Map" class="map-image">
+        <div class="map-overlay">
+          <a href="https://www.google.com/maps/place/43,+Jalan+Rimba+Riang+9%2F8,+Kota+Damansara,+47810+Petaling+Jaya,+Selangor/@3.1760464,101.5823954,884m/data=!3m1!1e3!4m5!3m4!1s0x31cc4f6db5103be1:0x3d3f7ac638abacdd!8m2!3d3.1759286!4d101.5842515?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-button">
+            <i class="fas fa-directions"></i> Get Directions
+          </a>
+        </div>
+      </div>
+      
+      <div class="transportation">
+        <div class="transport-option">
+          <div class="transport-icon">
+            <i class="fas fa-bus"></i>
+          </div>
+          <h4>By Bus</h4>
+          <p>Take RapidKL bus routes that stop near Kota Damansara. We're a short walk from the bus stop.</p>
+        </div>
+        
+        <div class="transport-option">
+          <div class="transport-icon">
+            <i class="fas fa-train"></i>
+          </div>
+          <h4>By MRT</h4>
+          <p>Take the MRT Sungai Buloh-Kajang Line to Kota Damansara station. We're a 10-minute ride from the station.</p>
+        </div>
+        
+        <div class="transport-option">
+          <div class="transport-icon">
+            <i class="fas fa-car"></i>
+          </div>
+          <h4>By Car</h4>
+          <p>Ample parking available on site. Use Waze or Google Maps for directions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Send Us a Message</h2>
+        <div class="section-divider"></div>
+        <p class="section-description">Have questions or want to get involved? Fill out the form below.</p>
+      </div>
+      
+      <div class="contact-form-container">
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="donation">Donation Inquiry</option>
+              <option value="volunteer">Volunteering</option>
+              <option value="visit">Visiting Request</option>
+              <option value="general">General Inquiry</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          
+          <div class="form-submit">
+            <button type="submit" class="submit-button">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-container alt-bg">
+      <div class="section-header">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <input type="checkbox" id="faq1" class="faq-toggle">
+          <label for="faq1" class="faq-question">
+            How can I volunteer at Yayasan Wardatul Jannah?
+            <i class="fas fa-chevron-down"></i>
+          </label>
+          <div class="faq-answer">
+            <p>We welcome volunteers in various capacities. Please complete our volunteer application form or contact us for upcoming volunteer opportunities. All volunteers are required to attend an orientation session.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <input type="checkbox" id="faq2" class="faq-toggle">
+          <label for="faq2" class="faq-question">
+            What items do you accept as donations?
+            <i class="fas fa-chevron-down"></i>
+          </label>
+          <div class="faq-answer">
+            <p>We gratefully accept new or gently used clothing, school supplies, books, and non-perishable food items. Please contact us before bringing physical donations to arrange drop-off times.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <input type="checkbox" id="faq3" class="faq-toggle">
+          <label for="faq3" class="faq-question">
+            Can I visit the children at your center?
+            <i class="fas fa-chevron-down"></i>
+          </label>
+          <div class="faq-answer">
+            <p>Yes, we welcome visitors by appointment to protect the children's routines and privacy. Please contact us at least one week in advance to schedule your visit. All visitors must agree to our child protection policy.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <input type="checkbox" id="faq4" class="faq-toggle">
+          <label for="faq4" class="faq-question">
+            How are my monetary donations used?
+            <i class="fas fa-chevron-down"></i>
+          </label>
+          <div class="faq-answer">
+            <p>Your donations are used for food, education, healthcare, and shelter maintenance. The majority of funds go directly to programs serving the children. Detailed financial reports are available upon request.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 43 Jalan Rimba Riang 9/8, Kota Damansara, Petaling Jaya</p>
+        <p><i class="fas fa-phone"></i> +03-6150 2421</p>
+        <p><i class="fas fa-envelope"></i> info@ywardatuljannah.com</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/ywardatuljannah" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/watch?v=ppCAolNEAOw" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://y-wardatuljannah.blogspot.com/" target="_blank"><i class="fas fa-blog"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="disclaimer">
+        <p><strong>Disclaimer:</strong> This is a student project website for Yayasan Wardatul Jannah, created for learning HTML & CSS only.</p>
+        <p>Copyright &copy; 2025 | Recommended browser: Chrome  138.0.7204.92/93/96/97, Firefox 140.0.2 | Resolution: 1920x1080 and above</p>
+        <p>Last updated: July 2025</p>
+      </div>
+      <div class="footer-links">
+        <a href="aboutme.html">About Me</a>
+        <a href="https://www.facebook.com/ywardatuljannah" target="_blank">Facebook</a>
+        <a href="https://www.youtube.com/@yayasanwardatuljannah6173" target="_blank">YouTube</a>
+        <a href="https://y-wardatuljannah.blogspot.com/" target="_blank">Blogspot</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
